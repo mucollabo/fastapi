@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "first-fastapi"
+version = "0.1.0"
+description = "exercise fastapi"
+authors = ["charles <charles01dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+httpie = "^3.2.3"
+httpx = "^0.27.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
